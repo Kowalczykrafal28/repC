@@ -1,0 +1,10 @@
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\bin\Debug\GraKółkoIKrzyżyk.exe.config
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\bin\Debug\GraKółkoIKrzyżyk.exe
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\bin\Debug\GraKółkoIKrzyżyk.pdb
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\obj\Debug\GraKółkoIKrzyżyk.csprojAssemblyReference.cache
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\obj\Debug\GraKółkoIKrzyżyk.Form1.resources
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\obj\Debug\GraKółkoIKrzyżyk.Properties.Resources.resources
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\obj\Debug\GraKółkoIKrzyżyk.csproj.GenerateResource.cache
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\obj\Debug\GraKółkoIKrzyżyk.csproj.CoreCompileInputs.cache
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\obj\Debug\GraKółkoIKrzyżyk.exe
+C:\Users\Rafał\Documents\GitHub\repC\Projekt semetralny\GraKółkoIKrzyżyk\GraKółkoIKrzyżyk\obj\Debug\GraKółkoIKrzyżyk.pdb
