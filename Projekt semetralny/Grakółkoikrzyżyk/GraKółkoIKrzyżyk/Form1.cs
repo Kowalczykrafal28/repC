@@ -41,28 +41,55 @@ namespace GraKółkoIKrzyżyk
                 liczba_klikniec++;
             }
 
-            if (button3.Text == "X" && button2.Text == "X" && button1.Text == "X")
+            if (button1.Text == "X" && button4.Text == "X" && button7.Text == "X")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz X ";
+                blokada = false;
+            }
+            if (button3.Text == "X" && button6.Text == "X" && button9.Text == "X")
             {
                 label3.Text = " Gre wygrał gracz X";
                 blokada = false;
             }
-
+            if (button1.Text == "X" && button5.Text == "X" && button9.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X ";
+                blokada = false;
+            }
+            if (button1.Text == "O" && button4.Text == "O" && button7.Text == "O")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz O ";
+                blokada = false;
+            }
+            if (button3.Text == "O" && button6.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gre wygrał gracz O";
+                blokada = false;
+            }
+            if (button1.Text == "O" && button5.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O ";
+                blokada = false;
+            }
             liczba_ruchów++;
             label1.Text = " Liczba ruchów : " + liczba_ruchów;
 
         }
-
         private void button3_Click(object sender, EventArgs e)
 
-        {     
+        {
 
-            if (liczba_klikniec % 2 == 1 && button3.Text != "X"  && blokada == true)  
+            if (liczba_klikniec % 2 == 1 && button3.Text != "X" && blokada == true)
             {
                 button3.Text = "O";
                 liczba_klikniec++;
                 label3.Text = "Następny ruch : X";
             }
-         
+
             if (liczba_klikniec % 2 == 0 && button3.Text != "O" && blokada == true)
             {
                 button3.Text = "X";
@@ -72,15 +99,46 @@ namespace GraKółkoIKrzyżyk
 
             if (button3.Text == "X" && button2.Text == "X" && button1.Text == "X")
             {
-                label3.Text = " Gre wygrał gracz X";
+                label3.Text = "Gratulacje ! " +
+                    "Gre wygrał gracz X ";
+                blokada = false;
+            }
+            if (button3.Text == "X" && button6.Text == "X" && button9.Text == "X")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz X ";
                 blokada = false;
             }
 
-            liczba_ruchów++;
-            label1.Text = " Liczba ruchów : " + liczba_ruchów; 
-            
-        }
+            if (button3.Text == "X" && button5.Text == "X" && button7.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X ";
+                blokada = false;
+            }
 
+            if (button3.Text == "O" && button2.Text == "O" && button1.Text == "O")
+            {
+                label3.Text = "Gratulacje ! " +
+                    "Gre wygrał gracz O ";
+                blokada = false;
+            }
+            if (button3.Text == "O" && button6.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz O ";
+                blokada = false;
+            }
+
+            if (button3.Text == "O" && button5.Text == "O" && button7.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O ";
+                blokada = false;
+            }
+            liczba_ruchów++;
+            label1.Text = " Liczba ruchów : " + liczba_ruchów;
+        }
         private void button6_Click(object sender, EventArgs e)
         {
            
@@ -101,15 +159,32 @@ namespace GraKółkoIKrzyżyk
 
             if (button4.Text == "X" && button5.Text == "X" && button6.Text == "X")
             {
-                label3.Text = " Gre wygrał gracz X";
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X ";
                 blokada = false;
             }
-
+            if (button3.Text == "X" && button6.Text == "X" && button9.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X ";
+                blokada = false;
+            }
+            if (button4.Text == "O" && button5.Text == "O" && button6.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O ";
+                blokada = false;
+            }
+            if (button3.Text == "O" && button6.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O ";
+                blokada = false;
+            }
             liczba_ruchów++;
             label1.Text = " Liczba ruchów : " + liczba_ruchów; 
             
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
 
@@ -129,7 +204,28 @@ namespace GraKółkoIKrzyżyk
 
             if (button3.Text == "X" && button2.Text == "X" && button1.Text == "X")
             {
-                label3.Text = " Gre wygrał gracz X";
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X ";
+                blokada = false;
+
+            }
+            if (button2.Text == "X" && button5.Text == "X" && button8.Text == "X")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz X ";
+                blokada = false;
+            }
+            if (button3.Text == "O" && button2.Text == "O" && button1.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O ";
+                blokada = false;
+
+            }
+            if (button2.Text == "O" && button5.Text == "O" && button8.Text == "O")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz O ";
                 blokada = false;
             }
 
@@ -157,15 +253,57 @@ namespace GraKółkoIKrzyżyk
 
             if (button4.Text == "X" && button5.Text == "X" && button6.Text == "X")
             {
-                label3.Text = " Gre wygrał gracz X";
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
             }
-
+            if (button2.Text == "X" && button5.Text == "X" && button8.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button1.Text == "O" && button5.Text == "X" && button9.Text == "X")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button3.Text == "X" && button5.Text == "X" && button7.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button4.Text == "O" && button5.Text == "O" && button6.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
+                blokada = false;
+            }
+            if (button2.Text == "O" && button5.Text == "O" && button8.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
+                blokada = false;
+            }
+            if (button1.Text == "O" && button5.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz O";
+                blokada = false;
+            }
+            if (button3.Text == "O" && button5.Text == "O" && button7.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
+                blokada = false;
+            }
             liczba_ruchów++;
             label1.Text = " Liczba ruchów : " + liczba_ruchów;
-            blokada = false;
+            
 
         }
-
         private void button4_Click(object sender, EventArgs e)
         {
 
@@ -186,7 +324,28 @@ namespace GraKółkoIKrzyżyk
 
             if (button4.Text == "X" && button5.Text == "X" && button6.Text == "X")
             {
-                label3.Text = " Gre wygrał gracz X";
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz X";
+                blokada = false;
+
+            }
+            if (button1.Text == "X" && button4.Text == "X" && button7.Text == "X")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button4.Text == "O" && button5.Text == "O" && button6.Text == "O")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz O";
+                blokada = false;
+
+            }
+            if (button1.Text == "O" && button4.Text == "O" && button7.Text == "O")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz O";
                 blokada = false;
             }
 
@@ -214,7 +373,40 @@ namespace GraKółkoIKrzyżyk
 
             if (button7.Text == "X" && button8.Text == "X" && button9.Text == "X")
             {
-                label3.Text = " Gre wygrał gracz X";
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz X";
+                blokada = false;
+
+            }
+            if (button3.Text == "X" && button6.Text == "X" && button9.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button1.Text == "X" && button5.Text == "X" && button9.Text == "X")
+            {
+                label3.Text = "Gratulacje ! " +
+                    "Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button7.Text == "O" && button8.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gratulacje ! " +
+                    "Gre wygrał gracz O";
+                blokada = false;
+
+            }
+            if (button3.Text == "O" && button6.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
+                blokada = false;
+            }
+            if (button1.Text == "O" && button5.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = "Gratulacje ! " +
+                    "Gre wygrał gracz O";
                 blokada = false;
             }
 
@@ -242,7 +434,28 @@ namespace GraKółkoIKrzyżyk
 
             if (button7.Text == "X" && button8.Text == "X" && button9.Text == "X")
             {
-                label3.Text = " Gre wygrał gracz X";
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
+
+            }
+            if (button2.Text == "X" && button5.Text == "X" && button8.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button7.Text == "O" && button8.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
+                blokada = false;
+
+            }
+            if (button2.Text == "O" && button5.Text == "O" && button8.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
                 blokada = false;
             }
 
@@ -250,7 +463,6 @@ namespace GraKółkoIKrzyżyk
             label1.Text = " Liczba ruchów : " + liczba_ruchów;
 
         }
-
         private void button7_Click(object sender, EventArgs e)
         {
 
@@ -271,7 +483,40 @@ namespace GraKółkoIKrzyżyk
 
             if (button7.Text == "X" && button8.Text == "X" && button9.Text == "X")
             {
-                label3.Text = " Gre wygrał gracz X";
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
+
+            }
+            if (button1.Text == "X" && button4.Text == "X" && button7.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button3.Text == "X" && button5.Text == "X" && button7.Text == "X")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz X";
+                blokada = false;
+            }
+            if (button7.Text == "O" && button8.Text == "O" && button9.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
+                blokada = false;
+
+            }
+            if (button1.Text == "O" && button4.Text == "O" && button7.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
+                blokada = false;
+            }
+            if (button3.Text == "O" && button5.Text == "O" && button7.Text == "O")
+            {
+                label3.Text = " Gratulacje !" +
+                    " Gre wygrał gracz O";
                 blokada = false;
             }
 
@@ -297,7 +542,19 @@ namespace GraKółkoIKrzyżyk
 
         private void button10_Click(object sender, EventArgs e)
         {
+            blokada = true;
+            label1.Text = "Liczba ruchów: ";
+            liczba_ruchów = 0;
             label3.Text = "Trwa rozgrywka ... ";
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
         }
         private void label1_Click(object sender, EventArgs e)
         {
